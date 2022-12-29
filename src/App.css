@@ -1,0 +1,49 @@
+.dark-theme{
+    --bg-clr : #1C1C1C;
+    --card-bg : #fff;
+    --input-bg: #b3b3b36b;
+    --color: #fff;
+    --btn-bg: #374151
+}
+
+.light-theme{
+    --bg-clr : #fff;
+    --card-bg : #b3b3b36b;
+    --input-bg: #8887876b;
+    --btn-bg: #374151
+}
+
+body{
+    background-color: var(--bg-clr);
+}
+.card{
+    background-color: var(--card-bg);
+    
+}
+.card-text{
+    color: #000 !important
+}
+.input{
+    background-color: var(--input-bg);
+}
+
+h2, h3{
+      color: var(--color);
+}
+
+.btn {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--btn-bg);
+    color: var(--color);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+  }
